@@ -1,0 +1,263 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.section_formtitre{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+margin-bottom: 100px;
+padding-top: 20px;
+font-family: 'Kaushan Script'
+
+
+}
+
+.color_Fond{
+background: linear-gradient(#346077, #ffffff);
+height: 600px;
+
+
+}
+
+.Formulaire_info{
+    
+    margin-left: 15%;
+    font-size: 24px;
+    
+
+
+}
+
+.formaulaire_btn{
+    width: 566.8px;
+    border-radius: 10px;
+    border-color: #ffffff;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    height: 39.06px;
+
+
+}
+
+.commentaire{
+    background-color: #ffffff;
+    height: 228.21px;
+    width: 686.41px;
+    border-radius: 10px;
+    
+    
+
+}
+
+
+.form{
+    
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+
+    
+}
+
+.condition{
+    display: flex;
+    align-items: center;
+}
+
+.conditiondiv{
+   
+    width:611px;
+    display: flex;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.condition{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.envoyer{
+    width: 676.07px;
+    margin-top:20px;
+    height: 60px;
+    font-size: 32px;
+    background-color: #346077;
+   color: #ffffff;
+   font-family: 'Kaushan Script'
+}
+
+.messages{
+    font-size: 24px;
+    
+}
+
+@media  screen and (min-width:500px) and (max-width:1500px){
+
+    .form{
+        display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+    }
+    .color_Fond{
+        height: 800px;
+    }
+
+    .form_commentaire{
+        display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+        margin-top: 50px;
+        
+    }
+    .formaulaire_btn{
+        height: 29.93px;
+        width: 500.37px;
+    }
+
+    .Formulaire_info{
+        font-size: 16px;
+    }
+
+    .condition{
+        font-size: 13px
+    }
+
+    .envoyer{
+        height: 43.98px;
+        width: 367.26px;
+        display: flex;
+         justify-content: center;
+         align-items: center;
+         
+    }
+
+    .commentaire{
+        display: flex;
+        justify-content: center;
+        
+        height: 216.74px;
+        width: 500.25px;
+    }
+
+    .messages{
+        font-size:20px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .condition{
+        font-size: 13px;
+        height:57px ;
+        width: 358px;
+       
+
+    }
+   
+    .conditiondiv{
+        display: flex;
+        justify-content: center;
+    }
+    .section_formtitre{
+        font-size: 30px;
+    }
+
+       
+}
+
+@media  screen and (min-width:0px) and (max-width:499px){
+    .form{
+        display: flex;
+         flex-direction: column;
+         justify-content: center;
+    
+         
+    }
+    .color_Fond{
+        height: 800px;
+        width: 100%;
+        
+    }
+
+    .form_commentaire{
+        display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+        margin-top: 20px;
+      
+        
+        
+    }
+    .formaulaire_btn{
+        height: 19px;
+        width: 249.08px;
+    }
+
+    .Formulaire_info{
+        font-size: 16px;
+    }
+
+    .condition{
+        font-size: 13px
+    }
+
+    .envoyer{
+        height: 28px;
+        width: 263.22px;
+        
+         font-size: 15px;
+    }
+
+    .commentaire{
+       display: flex;
+       justify-content: center;
+        height: 185px;
+        width: 249.08px;
+    }
+
+    .messages{
+        font-size:15px;
+        
+
+    }
+
+    .condition{
+        font-size: 10px;
+        height:57px ;
+        width: 240px;
+       
+
+    }
+   
+    .conditiondiv{
+      
+        display: flex;
+        justify-content: center;
+        width: 354px;
+        
+    }
+   
+    .section_formtitre{
+    font-size: 12px;
+}
+
+
+    .checkbox{
+        margin-top:30px;
+        width: 13.05px;
+        height: 12px;
+}
+
+
+}
+
